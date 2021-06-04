@@ -1,10 +1,10 @@
 
 $(function(){
-	var d1;
-	var d2;
     var start_date = url_obtained_at;
-    var end_date = url_end_date == '' ? String(url_obtained_at) : url_end_date;
-	
+    var end_date = url_end_date == '' ? url_obtained_at : url_end_date;
+	var d1 = new Date(get_format_date(url_obtained_at));
+	var d2 = new Date(get_format_date(end_date));
+
 	document.getElementById("datepicker1").setAttribute("value",get_format_date(url_obtained_at));
 	document.getElementById("datepicker2").setAttribute("value",get_format_date(url_end_date));
 
@@ -20,21 +20,22 @@ $(function(){
 		}).on("changeDate", function (e) {
 			var a = $.datepicker.formatDate("yy mm dd", $(this).datepicker("getDate"));
 			var b = a.split(' ');
-            d1 = new Date(b);
+            d1 = new Date(b);           
             month      = (d1.getMonth() + 1 > 9 ? "" : "0") + (d1.getMonth() + 1);
             date       = (d1.getDate() > 9 ? "" : "0") + (d1.getDate());
             year       = d1.getFullYear();
             today      = month+"/"+date+"/"+year;
             start_date = year + "-" + month + "-" + date;
             end_date   = year + "-" + month + "-" + date;
-            //document.getElementById("datepicker1").setAttribute("value",today);
-            document.getElementById("datepicker2").setAttribute("value",today);   
+            document.getElementById("datepicker1").setAttribute("value",today);
+            //document.getElementById("datepicker2").setAttribute("value",today);   
+            $("#datepicker2" ).datepicker('setStartDate', d1);
 		}); 
 	
 	
     $("#datepicker2").datepicker({
         format: "mm/dd/yyyy",
-        startDate: '05/01/2021',
+        startDate: d1,
         endDate: last_upd_date,
 		showOtherMonths: true,
 		selectOtherMonths: true,
@@ -51,6 +52,7 @@ $(function(){
             today    = month+"/"+date+"/"+year;
             end_date = year + "-" + month + "-" + date;
             document.getElementById("datepicker2").setAttribute("value",today);
+            $("#datepicker1").datepicker('setEndDate', d2);
     });
 	
 	$("#clickDate").on('click',function(){
