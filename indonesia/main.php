@@ -105,7 +105,16 @@ function is_tag_registered($db=null, $email, $imageid){
     return $ret['exists'];
 }
 
+function get_last_update_date($db=null){
+    $sql = "SELECT obtained_at FROM whatsapp_message ORDER BY obtained_at DESC LIMIT 1";
+    $reply = db_query($db, $sql);
+    $ret = $reply->fetch();
 
+    if ($ret === false){
+        return null;
+    }
+    return $ret;
+}
 
 // Don't close the PHP tag
 

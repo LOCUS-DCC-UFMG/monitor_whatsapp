@@ -12,6 +12,7 @@ require_once 'main.php';
 $index_q = get_default($_SESSION, "index_q", null);
 
 $input_error = get_default($_GET, "input_error", "");
+$input_error = utf8_decode($input_error);
 
 if ($index_q !== null) {
     if (session_status() == PHP_SESSION_NONE) {
@@ -138,12 +139,15 @@ input[type=text], input[type=password] {
 				<center style="margin-bottom: 9px;">
 				  <strong class="lang" key="findcontent"></strong>
 				</center>
+        <? if (isset($_SESSION['last_upd_date'])): ?>
+          <div> <h6>Last update date: <?=DateTime::createFromFormat('Y-m-d', $_SESSION['last_upd_date'])->format('m/d/Y');?></h6> </div>  
+        <? endif ?>
 				<div class="input-group">
 				  <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
-					<input type="text" class="form-control date-picker date" placeholder="dd/mm/yyyy" id="datepicker"  />
+					<input type="text" class="form-control date-picker date" placeholder="mm/dd/yyyy" id="datepicker"  />
 				  </div>
 			  </div>
-
+        
 			</div>
 		</div>
 	  </div>
@@ -172,11 +176,11 @@ input[type=text], input[type=password] {
   <script language="Javascript" type="text/javascript">
 
   $('#datepicker').datepicker({
-      format: 'dd/mm/yyyy',
+      format: 'mm/dd/yyyy',
       language: 'pt-BR',
       todayHighlight: true,
-      startDate: '22/03/2018',
-      endDate: '-1d',
+      startDate: '05/01/2021',
+      endDate: '<?= DateTime::createFromFormat('Y-m-d', $_SESSION['last_upd_date'])->format('m/d/Y');?>', 
       language: 'pt-BR',
       // datesDisabled: ['12/04/2018']
   }).on("changeDate", function(e) {

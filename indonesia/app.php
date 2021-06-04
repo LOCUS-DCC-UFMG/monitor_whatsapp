@@ -112,7 +112,11 @@ if ($flag === "images") {
                       <div class="col-md-12 col-sm-12 col-xs-12">
                         <center style="margin-bottom: 9px;">
                           <strong><div class="lang" key="findcontent"></div></strong>
-                        </center>
+						  
+						  <? if (isset($_SESSION['last_upd_date'])): ?>
+          					<div> <h5>Last update date: <?=DateTime::createFromFormat('Y-m-d', $_SESSION['last_upd_date'])->format('m/d/Y');?></h5> </div>  
+        				  <? endif ?>
+						</center>
                           <!-- Date Picker Input -->
                         <div>
                             <p class="lang" key="start_date"></p>  
@@ -120,7 +124,7 @@ if ($flag === "images") {
                               <span class="input-group-addon">
                                 <i class="glyphicon glyphicon-calendar"></i>
                               </span>
-                              <input type="text" class="form-control date-picker date" placeholder="dd/mm/yyyy" id="datepicker1" size="24"> 
+                              <input type="text" class="form-control date-picker date" placeholder="mm/dd/yyyy" id="datepicker1" size="24"> 
                             </div>
                             <br>
                             <p class="lang" key="end_date"></p>
@@ -128,7 +132,7 @@ if ($flag === "images") {
                               <span class="input-group-addon">
                                 <i class="glyphicon glyphicon-calendar"></i>
                               </span>
-                              <input type="text" class="form-control date-picker date" placeholder="dd/mm/yyyy" id="datepicker2" size="24" > 
+                              <input type="text" class="form-control date-picker date" placeholder="mm/dd/yyyy" id="datepicker2" size="24" > 
                             </div>
                             <br>
                             <button class="btn btn-primary" id="clickDate"><div class="lang" key="search"></div></button>
@@ -193,6 +197,10 @@ if ($flag === "images") {
 	
 	<script type="text/javascript" src="styles/links.js"></script>
 	<script type="text/javascript" src="styles/popup_grupo.js"></script>
+	
+	<script type="text/javascript">var last_upd_date = "<?= DateTime::createFromFormat('Y-m-d', $_SESSION['last_upd_date'])->format('m/d/Y');?>";</script>
+	<script type="text/javascript">var url_obtained_at = "<?= $obtained_at?>";</script>
+	<script type="text/javascript">var url_end_date = "<?= $end_date?>";</script>
 	
     <script type="text/javascript" src="get_data.js"></script>
     <script type="text/javascript" src="datepicker.js"  charset="utf-8"></script>

@@ -2,33 +2,21 @@
 $(function(){
 	var d1;
 	var d2;
-    var start_date;
-    var end_date;
+    var start_date = url_obtained_at;
+    var end_date = url_end_date == '' ? String(url_obtained_at) : url_end_date;
 	
-	var t = new Date();
-	var month  = (t.getMonth() + 1 > 9 ? "" : "0") + (t.getMonth() + 1);
-	var date   = (t.getDate() > 9 ? "" : "0") + (t.getDate());
-	var year   = t.getFullYear();
+	document.getElementById("datepicker1").setAttribute("value",get_format_date(url_obtained_at));
+	document.getElementById("datepicker2").setAttribute("value",get_format_date(url_end_date));
 
-    
-	var today  = month+"/"+date+"/"+year;
-    start_date = year + "-" + month + "-" + date;
-	document.getElementById("datepicker1").setAttribute("value",today);
-	document.getElementById("datepicker2").setAttribute("value",today);
-	var bb = today.split(' ');
-	d1 = new Date(bb);
-    
-
-	
 	$("#datepicker1").datepicker({
-        format: "dd-mm-yyyy",
-        startDate: '20-03-2018',
-        endDate: '-1d',
+        format: "mm/dd/yyyy",
+        startDate: '05/01/2021',
+        endDate: last_upd_date,
 		showOtherMonths: true,
 		selectOtherMonths: true,
 		changeMonth: true,
 		changeYear: true,
-		 
+        
 		}).on("changeDate", function (e) {
 			var a = $.datepicker.formatDate("yy mm dd", $(this).datepicker("getDate"));
 			var b = a.split(' ');
@@ -39,12 +27,15 @@ $(function(){
             today      = month+"/"+date+"/"+year;
             start_date = year + "-" + month + "-" + date;
             end_date   = year + "-" + month + "-" + date;
-            document.getElementById("datepicker1").setAttribute("value",today);
-            document.getElementById("datepicker2").setAttribute("value",today);
+            //document.getElementById("datepicker1").setAttribute("value",today);
+            document.getElementById("datepicker2").setAttribute("value",today);   
 		}); 
 	
 	
     $("#datepicker2").datepicker({
+        format: "mm/dd/yyyy",
+        startDate: '05/01/2021',
+        endDate: last_upd_date,
 		showOtherMonths: true,
 		selectOtherMonths: true,
 		changeMonth: true,
@@ -64,12 +55,31 @@ $(function(){
 	
 	$("#clickDate").on('click',function(){
 	var oneDay = 24*60*60*1000;	// hours*minutes*seconds*milliseconds
-	var diffDays = Math.round((d2-d1)/oneDay);
+    date1_field_value = document.getElementById("datepicker1").getAttribute("value").substring(0,10);
+    date2_field_value = document.getElementById("datepicker2").getAttribute("value").substring(0,10);
+
+	var diffDays = Math.round((new Date(date2_field_value)- new Date(date1_field_value))/oneDay);
 	document.getElementById("output").innerHTML = "Days of search:\t" + diffDays;
     document.location.href = "app.php?flag=images&obtained_at=" + start_date + "&end_date=" + end_date;
 	});
 
 });
+
+function get_format_date(date_to_format){
+    if (date_to_format == ''){
+        return get_format_date(url_obtained_at);
+    }
+    year = date_to_format.substring(0,4);
+    month = date_to_format.substring(5,7);
+    day = date_to_format.substring(8,10);
+        
+	var final_date  = month+"/"+day+"/"+year;
+    return final_date;
+}
+
+function get_date_url_format(date_to_format){
+    date_to_format.substring(6,10) + '-' + date_to_format.substring(0,2) + date_to_format.substring(3,5)
+}
 
 function get_today(){
     var today = new Date();
