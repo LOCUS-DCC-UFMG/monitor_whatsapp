@@ -1,125 +1,174 @@
-<?php include 'header.php'?>
+<?php include 'header.php' ?>
 
- 
+
 <body class="nav-md" data-spy="scroll" data-target=".navbar" data-offset="50">
     <div class="container body">
-      <div class="main_container">
-        <!-- page content -->
-        <div class="right_col" role="main">
+        <div class="main_container">
             <!-- page content -->
-            <center> 
-            <h1>
-                <div class="lang">WhatsApp Report</div>
-                <i><font style="font-weight:bold;color: #527bbd;">​
-                    <div class="lang">Reports and Analyses Made from WhatsApp Data</div>
-                </font></i>
-            </h1>
-	    </center>
-            <br>
-            <div>
-                <p>
-                    <span>
-                    This section presents the main reports and analyses made from the WhatsApp 
-                    data collected by our WhatsApp Collector. These reports show the most shared image, 
-                    video, audio, messaging, and URLs content across over 300 WhatsApp public groups 
-                    daily. Such groups are open groups, accessible through invitation links that 
-                    are published on websites well as on various social networks like Facebook and 
-                    Twitter. <br>
-                    If you use some of these reports, please cite our group.                    
-                    </span>
-                </p>
-                <hr>
+            <div class="right_col" role="main">
+                <!-- page content -->
+                <center>
+                    <h1>
+                        <div class="lang">WhatsApp Report</div>
+                        <i>
+                            <font style="font-weight:bold;color: #527bbd;">​
+                                <div class="lang">Reports and Analyses Made from WhatsApp Data</div>
+                            </font>
+                        </i>
+                    </h1>
+                </center>
+                <br>
                 <div>
+                    <p>
+                        <span>
+                            This section presents the main reports and analyses made from the WhatsApp
+                            data collected by our WhatsApp Collector. These reports show the most shared image,
+                            video, audio, messaging, and URLs content across over 300 WhatsApp public groups
+                            daily. Such groups are open groups, accessible through invitation links that
+                            are published on websites well as on various social networks like Facebook and
+                            Twitter. <br>
+                            If you use some of these reports, please cite our group.
+                        </span>
+                    </p>
+                    <hr>
                     <div>
                         <div>
-                            <h3>Reports <img width="22" height="22" class="image-icon"
-                                    src="https://20.media.tumblr.com/e244d1055521e71c6b5e6f0a6a0fc687/tumblr_inline_pla7cfn1lq1qbul23_540.png">
-                            </h3>
-                        </div>
-                    </div>
-
-                    <ul>
-                        <li>
-                            <div name="div_brazil">
-                                <div>
-                                    <b>
-                                        <span lang="EN-US">
-                                            05/2021 - Relatório sobre ocorrência de termos indígenas no WhatsApp.
-                                        </span>
-                                        </span>
-                                    </b>
-                                </div>
-                                <div>
-                                    <span style="color:#222222;background:white">
-                                        Vitor Mafra, Kaio Sá, Daniel Kansaon, Philipe Melo and Fabricio Benevenuto.
-                                    </span>
-                                </div>
-                                <div>
-                                    [</span></span><a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/reports/pdfs/2021_05_26_report_brazil_indigenas.pdf" target="_blank">
-                                        <span ><span lang="EN-US">PDF</span>
-                                        </span><span ></span></a><span
-                                        ><span lang="EN-US">]
-                                </div>
-                        </li>
-			<!-- Relatório mensal Abril-->
-                <li>
-                    <div>
-                        <div>
-                            <b>
-                                <span lang="EN-US">
-                                    04/2021 - Relatório mensal (abril).
-                                </span>
-                                </span>
-                            </b>
-                        </div>
-                        <div>
-                            <span style="color:#222222;background:white">
-                                Vitor Mafra, Kaio Sá, Daniel Kansaon, Philipe Melo and Fabricio Benevenuto.
-                            </span>
-                        </div>
-                        <div>
-                            [</span></span><a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/reports/pdfs/2021_04_report_mensal_brazil.pdf" target="_blank">
-                                <span ><span lang="EN-US">PDF</span>
-                                </span><span ></span></a><span
-                                ><span lang="EN-US">]
-                        </div>
-                    </div>                     
-                </li>
-                    </ul>
-                </div>
-                
-                
-                <!-- indonesia -->
-		<hr>
-                <div>
-                    <div>
-                        <div>
-                            <h3>Reports <img width="22" height="22" class="image-icon"
-                                    src="https://static.wixstatic.com/media/ac0f33_6f607bfb3dd04497b7e3f1bad24908db~mv2_d_1250_1250_s_2.png/v1/fill/w_1250,h_1250,al_c,q_90/file.jpg">
-                            </h3>
-                        </div>
-                    </div>
-
-                    <ul>
-                        <li>
                             <div>
-                                <div name="div_indonesia">
-                                    <b>
-                                        <span lang="EN-US">
-                                            Ainda não temos relatórios da Indonésia.
+                                <h3>Reports <img width="22" height="22" class="image-icon" src="https://20.media.tumblr.com/e244d1055521e71c6b5e6f0a6a0fc687/tumblr_inline_pla7cfn1lq1qbul23_540.png">
+                                </h3>
+                            </div>
+                        </div>
+                        
+                        <span>Relatórios Mensais</span>
+                        <ul>
+                            <!-- Relatório mensal Abril-->
+                            <li>
+                                <div>
+                                    <div>
+                                        <b>
+                                            <span lang="EN-US">
+                                                04/2021 - Relatório mensal (abril).
+                                            </span>
+                                            </span>
+                                        </b>
+                                    </div>
+                                    <div>
+                                        <span style="color:#222222;background:white">
+                                            Vitor Mafra, Kaio Sá, Daniel Kansaon, Philipe Melo and Fabricio Benevenuto.
                                         </span>
-                                        </span>
-                                    </b>
+                                    </div>
+                                    <div>
+                                        [</span></span><a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/reports/pdfs/2021_04_report_mensal_brazil.pdf" target="_blank">
+                                            <span><span lang="EN-US">PDF</span>
+                                            </span><span></span></a><span><span lang="EN-US">]
+                                    </div>
                                 </div>
-                                
-                        </li>
-                    </ul>
+                            </li>
+                        </ul>
+
+                        <span>Relatórios Temáticos</span>
+                        <!-- Assuntos Específicos-->
+                        <ul>
+                            <li>
+                                <div>
+                                    <div>
+                                        <b>
+                                            <span lang="EN-US">
+                                                05/2021 - CPI da COVID-19 (mai 2021 a jun 2021).
+                                            </span>
+                                            </span>
+                                        </b>
+                                    </div>
+                                    <div>
+                                        <span style="color:#222222;background:white">
+                                            Vitor Mafra, Kaio Sá, Daniel Kansaon, Philipe Melo and Fabricio Benevenuto.
+                                        </span>
+                                    </div>
+                                    <div>
+                                        [</span></span><a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/reports/pdfs/2021_05_report_tematico_cpi_pandemia.pdf" target="_blank">
+                                            <span><span lang="EN-US">PDF</span>
+                                            </span><span></span></a><span><span lang="EN-US">]
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div>
+                                        <b>
+                                            <span lang="EN-US">
+                                                03/2020 - Tratamento Precoce (mar 2020 a jun 2021).
+                                            </span>
+                                            </span>
+                                        </b>
+                                    </div>
+                                    <div>
+                                        <span style="color:#222222;background:white">
+                                            Vitor Mafra, Kaio Sá, Daniel Kansaon, Philipe Melo and Fabricio Benevenuto.
+                                        </span>
+                                    </div>
+                                    <div>
+                                        [</span></span><a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/reports/pdfs/2020_05_report_tematico_tratamento_precoce.pdf" target="_blank">
+                                            <span><span lang="EN-US">PDF</span>
+                                            </span><span></span></a><span><span lang="EN-US">]
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div>
+                                        <b>
+                                            <span lang="EN-US">
+                                                03/2020 - Intervenção Militar (mar 2020 a jun 2021).
+                                            </span>
+                                            </span>
+                                        </b>
+                                    </div>
+                                    <div>
+                                        <span style="color:#222222;background:white">
+                                            Vitor Mafra, Kaio Sá, Daniel Kansaon, Philipe Melo and Fabricio Benevenuto.
+                                        </span>
+                                    </div>
+                                    <div>
+                                        [</span></span><a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/reports/pdfs/2020_05_report_tematico_intervencao_militar.pdf" target="_blank">
+                                            <span><span lang="EN-US">PDF</span>
+                                            </span><span></span></a><span><span lang="EN-US">]
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- indonesia -->
+                    <hr>
+                    <div>
+                        <div>
+                            <div>
+                                <h3>Reports <img width="22" height="22" class="image-icon" src="https://static.wixstatic.com/media/ac0f33_6f607bfb3dd04497b7e3f1bad24908db~mv2_d_1250_1250_s_2.png/v1/fill/w_1250,h_1250,al_c,q_90/file.jpg">
+                                </h3>
+                            </div>
+                        </div>
+
+                        <ul>
+                            <li>
+                                <div>
+                                    <div name="div_indonesia">
+                                        <b>
+                                            <span lang="EN-US">
+                                                Ainda não temos relatórios da Indonésia.
+                                            </span>
+                                            </span>
+                                        </b>
+                                    </div>
+
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-    </div>
 
 
+            </div>
         </div>
-      </div>
     </div>
     </section>
     <!-- /page content -->
@@ -127,10 +176,10 @@
     </div>
     </div>
     <div id="custom_notifications" class="custom-notifications dsp_none">
-      <ul class="list-unstyled notifications clearfix" data-tabbed_notifications="notif-group">
-      </ul>
-      <div class="clearfix"></div>
-      <div id="notif-group" class="tabbed_notifications"></div>
+        <ul class="list-unstyled notifications clearfix" data-tabbed_notifications="notif-group">
+        </ul>
+        <div class="clearfix"></div>
+        <div id="notif-group" class="tabbed_notifications"></div>
     </div>
 
     <!-- bootstrap progress js -->
@@ -149,8 +198,7 @@
     <script type="text/javascript" src="js/flot/curvedLines.js"></script>
     <script type="text/javascript" src="js/flot/jquery.flot.resize.js"></script>
 
-    <?php include 'footer.php'?>
-  </body>
+    <?php include 'footer.php' ?>
+</body>
 
-  </html>
-
+</html>
