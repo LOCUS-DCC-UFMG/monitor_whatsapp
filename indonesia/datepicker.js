@@ -12,7 +12,7 @@ $(function () {
     $("#datepicker1").datepicker({
         format: "mm/dd/yyyy",
         startDate: '05/01/2021',
-        endDate: last_upd_date,
+        endDate: d2,
         showOtherMonths: true,
         selectOtherMonths: true,
         changeMonth: true,
@@ -28,7 +28,7 @@ $(function () {
         year = d1.getFullYear();
         today = month + "/" + date + "/" + year;
         start_date = year + "-" + month + "-" + date;
-        end_date = year + "-" + month + "-" + date;
+        //end_date = year + "-" + month + "-" + date;
         document.getElementById("datepicker1").setAttribute("value", today);
         //document.getElementById("datepicker2").setAttribute("value",today);
         $("#datepicker2").datepicker('setStartDate', d1);
