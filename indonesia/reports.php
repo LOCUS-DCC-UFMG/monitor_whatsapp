@@ -28,6 +28,8 @@
                             are published on websites well as on various social networks like Facebook and
                             Twitter. <br>
                             If you use some of these reports, please cite our group.
+                            <br><br>
+                            <b>Team:</b> Vitor Mafra, Kaio Sá, Daniel Kansaon, Philipe Melo and Fabricio Benevenuto.
                         </span>
                     </p>
                     <hr>
@@ -47,7 +49,7 @@
                                     <div>
                                         <b>
                                             <span lang="EN-US">
-                                                04/2021 - Relatório mensal (abril).
+                                                04/2021 - Relatório Mensal (abril).
                                             </span>
                                             </span>
                                         </b>
@@ -65,6 +67,34 @@
                                 </div>
                             </li>
                         </ul>
+
+                        <span>Relatórios Anuais</span>
+                        <ul>
+                            <!-- Relatório Anual-->
+                            <li>
+                                <div>
+                                    <div>
+                                        <b>
+                                            <span lang="EN-US">
+                                                2020 - Relatório Anual (mar 2020 a jun 2021).
+                                            </span>
+                                            </span>
+                                        </b>
+                                    </div>
+                                    <div>
+                                        <span style="color:#222222;background:white">
+                                            Vitor Mafra, Kaio Sá, Daniel Kansaon, Philipe Melo and Fabricio Benevenuto.
+                                        </span>
+                                    </div>
+                                    <div>
+                                        [</span></span><a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/reports/pdfs/2018_06_report_geral_eleicao_presidencial.pdf" target="_blank">
+                                            <span><span lang="EN-US">PDF</span>
+                                            </span><span></span></a><span><span lang="EN-US">]
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                       
 
                         <span>Relatórios Temáticos</span>
                         <!-- Assuntos Específicos-->
@@ -85,7 +115,7 @@
                                         </span>
                                     </div>
                                     <div>
-                                        [</span></span><a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/reports/pdfs/2021_05_report_tematico_cpi_pandemia.pdf" target="_blank">
+                                        [</span></span><a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/reports/pdfs/2021_05_a_2021_06_report_tematico_cpi_pandemia.pdf" target="_blank">
                                             <span><span lang="EN-US">PDF</span>
                                             </span><span></span></a><span><span lang="EN-US">]
                                     </div>
@@ -107,7 +137,7 @@
                                         </span>
                                     </div>
                                     <div>
-                                        [</span></span><a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/reports/pdfs/2020_05_report_tematico_tratamento_precoce.pdf" target="_blank">
+                                        [</span></span><a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/reports/pdfs/2020_03_a_2021_06_report_tematico_tratamento_precoce.pdf" target="_blank">
                                             <span><span lang="EN-US">PDF</span>
                                             </span><span></span></a><span><span lang="EN-US">]
                                     </div>
@@ -129,7 +159,76 @@
                                         </span>
                                     </div>
                                     <div>
-                                        [</span></span><a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/reports/pdfs/2020_05_report_tematico_intervencao_militar.pdf" target="_blank">
+                                        [</span></span><a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/reports/pdfs/2020_03_a_2021_06_report_tematico_intervencao_militar.pdf" target="_blank">
+                                            <span><span lang="EN-US">PDF</span>
+                                            </span><span></span></a><span><span lang="EN-US">]
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div>
+                                    <div>
+                                        <b>
+                                            <span lang="EN-US">
+                                                03/2020 - Fraude nas Urnas (mar 2020 a jul 2021).
+                                            </span>
+                                            </span>
+                                        </b>
+                                    </div>
+                                    <div>
+                                        <span style="color:#222222;background:white">
+                                            Vitor Mafra, Kaio Sá, Daniel Kansaon, Philipe Melo and Fabricio Benevenuto.
+                                        </span>
+                                    </div>
+                                    <div>
+                                        [</span></span><a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/reports/pdfs/2020-03_a_2021-07_report_tematico_fraude_urnas.pdf" target="_blank">
+                                            <span><span lang="EN-US">PDF</span>
+                                            </span><span></span></a><span><span lang="EN-US">]
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div>
+                                    <div>
+                                        <b>
+                                            <span lang="EN-US">
+                                                02/2020 - COVID-19 (fev 2020 a jun 2021).
+                                            </span>
+                                            </span>
+                                        </b>
+                                    </div>
+                                    <div>
+                                        <span style="color:#222222;background:white">
+                                            Vitor Mafra, Kaio Sá, Daniel Kansaon, Philipe Melo and Fabricio Benevenuto.
+                                        </span>
+                                    </div>
+                                    <div>
+                                        [</span></span><a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/reports/pdfs/2020_02_a_2021_06_report_tematico_covid_completo.pdf" target="_blank">
+                                            <span><span lang="EN-US">PDF</span>
+                                            </span><span></span></a><span><span lang="EN-US">]
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div>
+                                    <div>
+                                        <b>
+                                            <span lang="EN-US">
+                                                06/2018 - Eleição Presidencial (jun 2018 a nov 2018).
+                                            </span>
+                                            </span>
+                                        </b>
+                                    </div>
+                                    <div>
+                                        <span style="color:#222222;background:white">
+                                            Vitor Mafra, Kaio Sá, Daniel Kansaon, Philipe Melo and Fabricio Benevenuto.
+                                        </span>
+                                    </div>
+                                    <div>
+                                        [</span></span><a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/reports/pdfs/2018_06_report_geral_eleicao_presidencial.pdf" target="_blank">
                                             <span><span lang="EN-US">PDF</span>
                                             </span><span></span></a><span><span lang="EN-US">]
                                     </div>
