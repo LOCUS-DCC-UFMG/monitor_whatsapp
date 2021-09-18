@@ -106,7 +106,7 @@ function is_tag_registered($db=null, $email, $imageid){
 }
 
 function get_last_update_date($db=null){
-    $sql = "SELECT obtained_at FROM whatsapp_message ORDER BY obtained_at DESC LIMIT 1";
+    $sql = "SELECT obtained_at FROM whatsapp_image ORDER BY obtained_at DESC LIMIT 1";
     $reply = db_query($db, $sql);
     $ret = $reply->fetch();
 
