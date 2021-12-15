@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    
+    <link rel="shortcut icon" href="http://www.whatsapp-monitor.dcc.ufmg.br/indonesia/img/favicon-32-32.png" type="image/x-icon"/>
+        
     <title>Monitor de WhatsApp</title>
     
     <!-- Bootstrap core CSS -->
