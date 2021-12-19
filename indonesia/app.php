@@ -351,7 +351,7 @@ if ($flag === "images") {
 				var modalIdGrupo = "openModalVideoGroup" + index;
 				var modalIdForm = "openModalVideoForm" + index;
 				var modalVideoId = 'closeVideoSource' + index;
-				var video_path = "http://www.monitor-de-whatsapp.dcc.ufmg.br/data/videos/" + entry['videoid'];
+				var video_path = "http://www.monitor-de-whatsapp.dcc.ufmg.br/indonesia/data/videos/" + entry['videoid'];
 				if (entry['nsfw_score'] >= 0.8) {
 					video_path = '<img src="http://www.monitor-de-whatsapp.dcc.ufmg.br/data/images/improprio.png">'
 				}
@@ -684,7 +684,7 @@ if ($flag === "images") {
 				var modalId = "openModalImage" + index;
 				var modalIdGrupo = "openModalImageGroup" + index;
 				var modalIdForm = "openModalImageForm" + index;
-				var image_path = 'http://www.monitor-de-whatsapp.dcc.ufmg.br/data/images/' + entry['imageid'];
+				var image_path = 'http://www.monitor-de-whatsapp.dcc.ufmg.br/indonesia/data/images/' + entry['imageid'];
 				if (entry['nsfw_score'] >= 0.8) {
 					image_path = 'http://www.monitor-de-whatsapp.dcc.ufmg.br/data/images/improprio.png'
 				}
@@ -1032,7 +1032,7 @@ if ($flag === "images") {
 
 	<script language="Javascript" type="text/javascript">
 		function redirect_image(query) {
-			var image_url = 'http://www.monitor-de-whatsapp.dcc.ufmg.br/data/images/' + query;
+			var image_url = 'http://www.monitor-de-whatsapp.dcc.ufmg.br/indonesia/data/images/' + query;
 			var search_url = 'http://images.google.com/searchbyimage?image_url=' + query;
 			window.open(search_url, '_blank');
 		}
