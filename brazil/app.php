@@ -369,7 +369,7 @@ if ($flag === "images") {
 					"	  </a>" +
 					"	  <a class='item_hover'>" +
 					"	  <button type='button' class='gal_btn blue' data-toggle='modal' data-target='#" + modalId + "'>" + language["details"].toUpperCase() + "</button>" +
-					"	  <button type='button' class='gal_btn blue' data-toggle='modal' data-target='#modal-form-" + modalIdForm + "'>" + language["evaluate"].toUpperCase() + "</button>" +
+					//"	  <button type='button' class='gal_btn blue' data-toggle='modal' data-target='#modal-form-" + modalIdForm + "'>" + language["evaluate"].toUpperCase() + "</button>" +
 					"	  </a>" +
 					"	</div> " +
 					"  <!-- Modal -->" +
@@ -414,7 +414,7 @@ if ($flag === "images") {
 					"					</table>" +
 					"						" +
 					"						<div class='gal_btn blue large'> <a class='buttonStyle' href='#" + modalIdGrupo + "'>" + language["groups"].toUpperCase() + "</a> </div>" +
-					"				        <div class='gal_btn blue large' data-toggle='modal' data-target='#modal-form-" + modalIdForm + "'><a class='buttonStyle'>" + language["evaluate"].toUpperCase() + "</a></div>" +
+					//"				        <div class='gal_btn blue large' data-toggle='modal' data-target='#modal-form-" + modalIdForm + "'><a class='buttonStyle'>" + language["evaluate"].toUpperCase() + "</a></div>" +
 					"				</div></div>" +
 					"			" +
 					"			</div>" +
@@ -532,7 +532,7 @@ if ($flag === "images") {
 					"								</tr>" +
 					"							</table>" +
 					"							" +
-					"							<div class='inner_btn darkred' data-toggle='modal' data-target='#modal-form-" + modalIdForm + "'> <a class='buttonStyle'  >" + language["evaluate"].toUpperCase() + "</a> </div>" +
+					//"							<div class='inner_btn darkred' data-toggle='modal' data-target='#modal-form-" + modalIdForm + "'> <a class='buttonStyle'  >" + language["evaluate"].toUpperCase() + "</a> </div>" +
 					"							<div class='inner_btn darkred'> <a class='buttonStyle' style='text-decoration:none' href='#" + modalId + "'>" + language["groups"].toUpperCase() + "</a> </div>" +
 					"							<div class='inner_btn darkred'> <a class='buttonStyle' style='text-decoration:none' onclick='redirect_text(" + '"' + entry['link_title'] + '"' + ")'>" + language["othersources"].toUpperCase() + "</a></div>" +
 					"													" +
@@ -631,7 +631,7 @@ if ($flag === "images") {
 					"						<div class='box2'>" +
 					"						" +
 					"							" +
-					"							<div class='inner_btn darkred' data-toggle='modal' data-target='#modal-form-" + modalIdForm + "'> <a class='buttonStyle'  >" + language["evaluate"].toUpperCase() + "</a> </div>" +
+					//"							<div class='inner_btn darkred' data-toggle='modal' data-target='#modal-form-" + modalIdForm + "'> <a class='buttonStyle'  >" + language["evaluate"].toUpperCase() + "</a> </div>" +
 					"				            <div class='inner_btn darkred'> <a class='buttonStyle' style='text-decoration:none' href='#" + modalId + "'>" + language["groups"].toUpperCase() + "</a> </div>" +
 					"							<div class='inner_btn darkred'> <a class='buttonStyle' style='text-decoration:none' onclick='redirect_text(" + '"' + entry['message'] + '"' + ")'>" + language["othersources"].toUpperCase() + "</a></div>" +
 					"				        " +
@@ -706,7 +706,7 @@ if ($flag === "images") {
 					"	  </a>" +
 					"	  <a class='item_hover'>" +
 					"	  <button type='button' class='gal_btn blue' data-toggle='modal' data-target='#" + modalId + "'>" + language["details"].toUpperCase() + "</button>" +
-					"	  <button type='button' class='gal_btn blue' data-toggle='modal' data-target='#modal-form-" + modalIdForm + "'>" + language["evaluate"].toUpperCase() + "</button>" +
+					//"	  <button type='button' class='gal_btn blue' data-toggle='modal' data-target='#modal-form-" + modalIdForm + "'>" + language["evaluate"].toUpperCase() + "</button>" +
 					"	  </a>" +
 					"	</div> " +
 					"  <!- Modal ->" +
@@ -750,7 +750,7 @@ if ($flag === "images") {
 					"						" +
 					"						<div class='gal_btn blue large'> <a class='buttonStyle' href='#" + modalIdGrupo + "'>" + language["groups"].toUpperCase() + "</a> </div>" +
 					"						<div class='gal_btn blue large' value='" + image_path + "' onclick='redirect_image(" + '"' + image_path + '"' + ")'><a class='buttonStyle'>" + language["othersources"].toUpperCase() + "</a></div>" +
-					"				        <div class='gal_btn blue large' data-toggle='modal' data-target='#modal-form-" + modalIdForm + "'><a class='buttonStyle'>" + language["evaluate"].toUpperCase() + "</a></div>" +
+					//"				        <div class='gal_btn blue large' data-toggle='modal' data-target='#modal-form-" + modalIdForm + "'><a class='buttonStyle'>" + language["evaluate"].toUpperCase() + "</a></div>" +
 					"				</div></div>" +
 					"			" +
 					"			</div>" +
