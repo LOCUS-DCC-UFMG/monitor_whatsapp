@@ -1,6 +1,6 @@
-    var language =  JSON.parse(en_data)[0];
-    var lang = localStorage.getItem('lang') || 'en';
-    
+    var language =  JSON.parse(ptbr_data)[0];
+    var lang = localStorage.getItem('lang') || 'pt-br';
+
     function loadlang()
     {
             var lng = document.getElementById("langselector").value;
@@ -49,7 +49,7 @@
         if (value_date == 'None')
             return;
         
-        var lng = localStorage.getItem('lang') || 'en';
+        var lng = localStorage.getItem('lang') || 'pt-br';
         var b = document.getElementsByClassName("langdate")[0];
         var D = new Date(value_date)
 	    var tkns = value_date.split("-");
@@ -129,7 +129,7 @@
     
     function formated_date_language(date){
     var formated_date = date;
-    var lng = localStorage.getItem('lang') || 'en';
+    var lng = localStorage.getItem('lang') || 'pt-br';
 	var tkns = date.split("-");
         var y = parseInt(tkns[0]);
         var m = parseInt(tkns[1])-1;

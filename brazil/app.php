@@ -119,7 +119,7 @@ if ($flag === "images") {
 
 												<? if (isset($_SESSION['last_upd_date'])) : ?>
 													<div>
-														<h5>Last update date: <?= DateTime::createFromFormat('Y-m-d', $_SESSION['last_upd_date'])->format('m/d/Y'); ?></h5>
+														<h5>Last update: <?= DateTime::createFromFormat('Y-m-d', $_SESSION['last_upd_date'])->format('m/d/Y'); ?></h5>
 													</div>
 												<? endif ?>
 											</center>
@@ -1086,7 +1086,7 @@ if ($flag === "images") {
 			//get_data_from_server();
 
 			//The default language is English
-			var lng = localStorage.getItem('lang') || 'en';
+			var lng = localStorage.getItem('lang') || 'pt-br';
 			var allInputs = document.getElementsByTagName("option");
 			var results = [];
 			for (var x = 0; x < allInputs.length; x++)

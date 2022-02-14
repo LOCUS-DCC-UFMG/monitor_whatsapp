@@ -17,9 +17,9 @@
 			<a data-toggle="pill" href="#mensagens"><div class="lang" key="messages"></div></a>
 		</li>
 
-		<li>
+		<!-- <li>
 			<a data-toggle="pill" href="#links"><div class="lang" key="urls"></div></a>
-		</li>
+		</li> -->
 		<li>
 			<a data-toggle="pill" href="#audios"><div class="lang" key="audios"></div></a>
 		</li>

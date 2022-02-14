@@ -119,7 +119,7 @@ button:hover {
         $(document).ready(function() {
 
             //The default language is English
-            var lng = localStorage.getItem('lang') || 'en';
+            var lng = localStorage.getItem('lang') || 'pt-br';
             var allInputs = document.getElementsByTagName("option");
             var results = [];
             for(var x=0;x<allInputs.length;x++)

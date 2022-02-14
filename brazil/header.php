@@ -103,10 +103,11 @@
                                     <!-- Collect the nav links, forms, and other content for toggling -->
                                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                     <ul class="nav navbar-nav navbar-right">
-                                            <li><a href="https://chrome.google.com/webstore/detail/monitor-de-propagandas-do/mnbffelpanbfkmkifcbafgopfbmocdao" title="">&raquo; Facebook Ads Monitor</a></li>
+                                             <!--<li><a href="https://chrome.google.com/webstore/detail/monitor-de-propagandas-do/mnbffelpanbfkmkifcbafgopfbmocdao" title="">&raquo; Facebook Ads Monitor</a></li>
                                             <li><a href="http://www.audiencia-dos-politicos.dcc.ufmg.br/" target="_blank" title="">&raquo; Audiência dos Políticos</a></li>
                                             <li><a href="http://www.noticias-lado-a-lado.dcc.ufmg.br/" target="_blank"  title="">&raquo; Notícias Lado a Lado</a></li>
                                             <li><a href="http://www.bot-ou-humano.dcc.ufmg.br/" target="_blank" title="">&raquo; Bot ou Humano?</a></li>
+                                            -->
                                         </li>
                                     </ul>
                                     </div><!-- /.navbar-collapse --><!-- /.container-fluid -->
