@@ -1,0 +1,10 @@
+
+trocar todos <?if> para <?php if>
+- index.php e app.php
+
+comentar console.log
+- details_modal.js
+
+alterar senha do banco 
+- kernel.py e const.php
+
