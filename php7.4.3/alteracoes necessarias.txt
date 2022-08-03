@@ -8,3 +8,5 @@ comentar console.log
 alterar senha do banco 
 - kernel.py e const.php
 
+mudar python para python2
+- exec_process
