@@ -10,3 +10,6 @@ alterar senha do banco
 
 mudar python para python2
 - exec_process
+
+ajustar matriz
+- vendor/camspiers/porter-stemmer/src/Porter.php
