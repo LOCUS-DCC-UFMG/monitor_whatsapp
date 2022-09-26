@@ -11,5 +11,10 @@ alterar senha do banco
 mudar python para python2
 - exec_process
 
+<<<<<<< HEAD
 ajustar matriz
 - vendor/camspiers/porter-stemmer/src/Porter.php
+=======
+alterar []{} para [][]
+- vendor/campiers/porter-stemmer/src/Porter.php
+>>>>>>> ad35e346d81dfff2a517d76af8276108b6972f32
