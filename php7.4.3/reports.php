@@ -157,6 +157,26 @@
                                     <div>
                                         <b>
                                             <span lang="EN-US">
+                                                09/2022 - WhatsApp - STF (set 2022).
+                                            </span>
+                                            </span>
+                                        </b>
+                                    </div>
+                                    <div>
+                                    </div>
+                                    <div>
+                                        [</span></span><a href="http://150.164.214.48/monitor-de-whatsapp/data/reports/pdfs/whatsapp_report_stf.pdf" target="_blank">
+                                            <span><span lang="EN-US">PDF</span>
+                                            </span><span></span></a><span><span lang="EN-US">]
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div>
+                                    <div>
+                                        <b>
+                                            <span lang="EN-US">
                                                 09/2022 - WhatsApp - Presidenciáveis (set 2022).
                                             </span>
                                             </span>
@@ -166,6 +186,66 @@
                                     </div>
                                     <div>
                                         [</span></span><a href="http://150.164.214.48/monitor-de-whatsapp/data/reports/pdfs/whatsapp_report_tse_presidenciaveis.pdf" target="_blank">
+                                            <span><span lang="EN-US">PDF</span>
+                                            </span><span></span></a><span><span lang="EN-US">]
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div>
+                                    <div>
+                                        <b>
+                                            <span lang="EN-US">
+                                                09/2022 - Telegram - Presidenciáveis (set 2022).
+                                            </span>
+                                            </span>
+                                        </b>
+                                    </div>
+                                    <div>
+                                    </div>
+                                    <div>
+                                        [</span></span><a href="http://150.164.214.48/monitor-de-whatsapp/data/reports/pdfs/telegram_report_presidenciaveis.pdf" target="_blank">
+                                            <span><span lang="EN-US">PDF</span>
+                                            </span><span></span></a><span><span lang="EN-US">]
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div>
+                                    <div>
+                                        <b>
+                                            <span lang="EN-US">
+                                                08/2022 - Telegram - Perseguição Religiosa (jan 2022 a ago 2022).
+                                            </span>
+                                            </span>
+                                        </b>
+                                    </div>
+                                    <div>
+                                    </div>
+                                    <div>
+                                        [</span></span><a href="http://150.164.214.48/monitor-de-whatsapp/data/reports/pdfs/telegram_report_religiao.pdf" target="_blank">
+                                            <span><span lang="EN-US">PDF</span>
+                                            </span><span></span></a><span><span lang="EN-US">]
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div>
+                                    <div>
+                                        <b>
+                                            <span lang="EN-US">
+                                                08/2022 - WhatsApp - Perseguição Religiosa (jan 2022 a ago 2022).
+                                            </span>
+                                            </span>
+                                        </b>
+                                    </div>
+                                    <div>
+                                    </div>
+                                    <div>
+                                        [</span></span><a href="http://150.164.214.48/monitor-de-whatsapp/data/reports/pdfs/whatsapp_report_religiao.pdf" target="_blank">
                                             <span><span lang="EN-US">PDF</span>
                                             </span><span></span></a><span><span lang="EN-US">]
                                     </div>
